@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="calculador">
+    <input type="text" class="display" id="display" value="">
+    <div class="botones">
+        <button onclick="limpiar()">C</button>
+
+        <button onclick="agregarAlCampo('-')">-</button>
+        <button onclick="agregarAlCampo('*')">*</button>
+        <button onclick="agregarAlCampo('/')">/</button>
+
+        <button onclick="agregarAlCampo('1')">1</button>
+        <button onclick="agregarAlCampo('2')">2</button>
+        <button onclick="agregarAlCampo('3')">3</button>
+        <button onclick="agregarAlCampo('+')">+</button>
+
+        <button onclick="agregarAlCampo('4')">4</button>
+        <button onclick="agregarAlCampo('5')">5</button>
+        <button onclick="agregarAlCampo('6')">6</button>
+        <button onclick="agregarAlCampo('.')">.</button>
+
+        <button onclick="agregarAlCampo('7')">7</button>
+        <button onclick="agregarAlCampo('8')">8</button>
+        <button onclick="agregarAlCampo('9')">9</button>
+    
+      
+        <button  onclick="agregarAlCampo('0')">0</button>
+        <button class="igual" onclick="calcular()">=</button>
+      
+    </div>
+</div>
+
+<script src="calcular.js">
+  
+</script>
+
+</body>
+</html>
